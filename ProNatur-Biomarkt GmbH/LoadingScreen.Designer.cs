@@ -69,6 +69,7 @@
             // 
             // loadingText
             // 
+            this.loadingText.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.loadingText.AutoSize = true;
             this.loadingText.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.loadingText.Location = new System.Drawing.Point(311, 170);
@@ -85,6 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.ClientSize = new System.Drawing.Size(704, 221);
             this.Controls.Add(this.loadingText);

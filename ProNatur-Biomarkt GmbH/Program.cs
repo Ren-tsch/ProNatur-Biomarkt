@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,7 +17,8 @@ namespace ProNatur_Biomarkt_GmbH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoadingScreen());
+            //Application.Run(new LoadingScreen());
+            Application.Run(new MainMenuScreen());
         }
     }
 }
